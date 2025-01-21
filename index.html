@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/07de553b95.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+
+<body class="quicksand-font">
+    <header class="header">
+        <nav class="display-flex nav">
+            <div class="display-flex school">
+                <img src="assets/logo.png" alt="A logo of the institution">
+                <h2>SCHOOL</h2>
+            </div>
+            <div>
+                <ul class="display-flex nav-items">
+                    <li><a class="list-item-1" href="">Home</a></li>
+                    <li><a class="list-item-2" href="">About</a></li>
+                    <li><a class="list-item-3" href="">Facilities</a></li>
+                    <li><a class="list-item-4" href="">Admission</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn-nav">Contact</button>
+            </div>
+
+        </nav>
+        <!-- for mobile device -->
+        <div class="mobile-navbar">
+            <img src="assets/logo.png" alt="A logo of the institution">
+            <div class="ham-burger">
+                <img src="assets/ham-burger.png" alt="">
+            </div>
+        </div>
+        <hr class="mobile-hr">
+    </header>
+    <main>
+        <!-- banner section -->
+        <section class="banner display-flex">
+            <div class="banner-info">
+                <h1 class="banner-title"><span class="empowering">Empowering</span>
+                    students from small age <span class="towards-vision">towards vision</span></h1>
+                <p class="banner-text">With the courage, Confidence, Creativity and Compassion to make their Unique
+                    Contribution in a Diverse and Dynamic World.</p>
+                <div>
+                    <button class="btn-banner">Enroll Now</button>
+                </div>
+            </div>
+            <div class="banner-img">
+                <img src="assets/hero-kids.png" alt="">
+            </div>
+        </section>
+
+        <!-- curriculum section -->
+        <section class="curriculum">
+            <div>
+                <h2 class="curriculum-title">Standard Curriculum</h2>
+            </div>
+            <div class="display-flex card-container">
+                <!-- div*3>img.card-img+h3.card-title+p.card-text+a{Read More} -->
+                <div class="card-item color-blue">
+                    <img class="card-img" src="assets/kinder.png" alt="" class="card-img">
+                    <h3 class="card-title">Kinder (3-6) Years</h3>
+                    <p class="card-text">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="read-more read-more-color-blue" href="">Read More</a>
+                </div>
+                <div class="card-item color-yellow">
+                    <img class="card-img" src="assets/elementary.png" alt="" class="card-img">
+                    <h3 class="card-title">Elementary School</h3>
+                    <p class="card-text">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="read-more read-more-color-yellow" href="">Read More</a>
+                </div>
+                <div class="card-item color-purple">
+                    <img class="card-img" src="assets/middle.png" alt="" class="card-img">
+                    <h3 class="card-title">Middle (10-16) Years</h3>
+                    <p class="card-text">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="read-more read-more-color-purple" href="">Read More</a>
+                </div>
+            </div>
+            <div class="arrow-icon">
+                <div class="arrow left-arrow"><i class="fa-solid fa-angle-up fa-rotate-270" style="color: #ffffff;"></i></div>
+                <div class="arrow right-arrow"><i class="fa-solid fa-angle-up fa-rotate-90" style="color: #ffffff;"></i></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

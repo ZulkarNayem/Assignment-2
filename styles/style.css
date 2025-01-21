@@ -1,0 +1,244 @@
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* nav styles */
+.header{
+    margin: 0 140px;
+}
+.nav{
+    justify-content: space-between;
+}
+.school{
+    gap: 20px;
+}
+header ul{
+    list-style-type: none;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav-items{
+    font-size: 1.12rem;
+    font-weight: 400;
+    gap: 32px;
+}
+.list-item-1{
+    color: #FEA301;
+    font-weight: 600;
+}
+.list-item-2{
+    color: #01ACFD;
+}
+.list-item-3{
+    color: #05D4DF;
+}
+.list-item-4{
+    color: #5D58EF;
+}
+.btn-nav{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FEA301;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* hamburger icon */
+.mobile-navbar{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.mobile-hr{
+    display: none;
+    border: none;
+    height: 1px;
+    background-color: #FEA301;
+    width: 100%;
+}
+
+/* banner styles */
+.banner{
+    max-width: 1160px;
+    justify-content: center;
+    margin: 34px 140px;
+    gap: 50px;
+}
+.banner-title{
+    padding: 0;
+    margin-bottom: auto;
+    color: black;
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+.empowering{
+    color: #FEA301;
+}
+.towards-vision{
+    color: #01ACFD;
+}
+.banner-text{
+    color: #111111;
+    padding: 0;
+    margin-top: 24px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+.btn-banner{
+    color: white;
+    background-color: black;
+    padding: 12px 47px ;
+    border: none;
+    border-radius: 12px;
+}
+.banner-img{
+    max-width: 100%;
+}
+
+/* curriculum styles */
+.curriculum{
+    background-image: url('../assets/bg.png');
+    text-align: center;
+    margin: 0 140px;
+}
+.curriculum-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.card-container{
+    margin-top: 80px;
+    gap: 28px;
+
+}
+.card-item{
+    max-height: 476px;
+    align-items: center;
+    padding: 56px 40px;
+    border-radius: 18px;
+}
+.card-img{
+    height: 132px;
+    width: 132px;
+    margin: 30px auto 0;
+}
+.card-title{
+    margin: 33px auto 34px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+}
+.card-text{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 38px;
+}
+.curriculum a{
+    text-decoration: none;
+}
+.read-more{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.read-more-color-blue{
+    color: #64C8FF;
+}
+.read-more-color-yellow{
+    color: #F0AA00;
+}
+.read-more-color-purple{
+    color: #8700FF;
+}
+.color-blue{
+    border: 1px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF, white);
+}
+.color-yellow{
+    border: 1px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC, white);
+}
+.color-purple{
+    border: 1px solid #F2E8FF;
+    background: linear-gradient(180deg, #F2E8FF, white);
+}
+.arrow-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.arrow {
+    padding: 20px;
+    background-color: #FEA301;
+    border-radius: 50%;
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+.arrow:hover {
+    transform: scale(1.1);
+    background-color: rgb(250, 137, 0);
+}
+
+
+/* media query for small devices */
+@media screen and (max-width:576px) {
+    .header{
+        margin: 0 auto;
+    }
+    .nav{
+        display: none;
+    }
+    .mobile-navbar{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 300px;
+    }
+    .ham-burger img{
+        width: 100%;
+    }
+    .mobile-hr{
+        display: block;
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 8px 16px;
+        gap: 0;
+    }
+    .banner-info{
+        text-align: center;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner-img img{
+        max-width: 100%;
+    }
+}
+
+
+/* media query for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header, .banner{
+        margin: 0 auto;
+    }
+}
