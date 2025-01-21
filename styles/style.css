@@ -97,7 +97,9 @@ header ul a {
     margin: 34px 140px;
     gap: 50px;
 }
-
+.banner-info{
+    padding-top: 100px;
+}
 .banner-title {
     padding: 0;
     margin-bottom: auto;
