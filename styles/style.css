@@ -390,6 +390,7 @@ header ul a {
 .footer{
     background-color: #01ACFD;
     height: 85vh;
+    width: 100%;
 }
 .footer-container{
     padding-top: 123px;
@@ -434,7 +435,7 @@ header ul a {
     text-decoration: none;
 }
 .footer-container-item-3{
-    width: 40%;
+    width: 50%;
 }
 .footer-container-item-3 h3{
     color: white;
@@ -518,8 +519,7 @@ header ul a {
         font-weight: 700;
     }
 
-    .card-container
-    {
+    .card-container{
         flex-direction: column;
         margin-top: 20px;
         gap: 12px;
@@ -562,9 +562,11 @@ header ul a {
     .footer-container{
         flex-direction: column;
         gap: 30px;
-        width: 100%;
         padding: 20px;
         margin: 0;
+    }
+    .footer-first-text{
+        width: 200%;
     }
     .footer-container-item-1,
     .footer-container-item-2,
@@ -575,6 +577,7 @@ header ul a {
         max-width: 100%;
     }
     .footer-heading{
+        font-size: 1.15rem;
         display: block;
         width: 100%;
     }
