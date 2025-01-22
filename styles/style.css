@@ -446,7 +446,7 @@ header ul a {
     font-weight: 400;
 }
 .footer-container-item-2{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -455,6 +455,7 @@ header ul a {
     font-size: 1.5rem;
 }
 .footer-container-item-2 li{
+    color: white;
     margin-top: 20px;
     list-style-type: none;
 }
