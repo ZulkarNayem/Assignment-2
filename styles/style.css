@@ -271,16 +271,15 @@ header ul a {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0px 0px 0px;
     background: url('../assets/bg.png'), linear-gradient(0.00deg, #fea3014d, white);
     ;
-
 }
 
 .story-title {
     font-size: 2.8rem;
     font-weight: 700;
-    /* margin: 100px auto 50px; */
+    margin: 80px auto 20px;
 }
 
 .story-card-container {
@@ -386,6 +385,69 @@ header ul a {
 .stories-view-all-btn {
     margin: 80px auto 60px;
 }
+
+/* footer styles */
+.footer{
+    background-color: #01ACFD;
+    height: 85vh;
+}
+.footer-container{
+    margin: 123px 100px auto 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.footer-container-item-1{
+    padding: 0 80px;
+}
+.footer-img img{
+    height: 100px;
+    width: 100px;
+}
+.footer-first-title{
+    margin-left: 10px;
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.footer-first-text{
+    margin-top: 30px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-container-item-2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container-item-2 h3{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer-container-item-2 li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.footer-container-item-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container-item-3 h3{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer-container-item-3 li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.footer-li{
+    gap: 10px;
+}
+.footer-container-item-3 a{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* media query for small devices */
 @media screen and (max-width:576px) {
