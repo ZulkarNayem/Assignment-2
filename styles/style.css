@@ -392,11 +392,12 @@ header ul a {
     height: 85vh;
 }
 .footer-container{
+    padding-top: 123px;
     margin: 123px 100px auto 100px;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    display: flex;
 }
 .footer-container-item-1{
+    width: 50%;
     padding: 0 80px;
 }
 .footer-img img{
@@ -416,6 +417,7 @@ header ul a {
     font-weight: 400;
 }
 .footer-container-item-2{
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -431,7 +433,9 @@ header ul a {
     color: white;
     text-decoration: none;
 }
-
+.footer-container-item-3{
+    width: 40%;
+}
 .footer-container-item-3 h3{
     color: white;
     font-size: 1.5rem;
@@ -514,7 +518,8 @@ header ul a {
         font-weight: 700;
     }
 
-    .card-container {
+    .card-container
+    {
         flex-direction: column;
         margin-top: 20px;
         gap: 12px;
@@ -553,6 +558,25 @@ header ul a {
         font-size: 0.6rem;
         font-weight: 700;
         text-align: left;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+    .footer-container-item-1,
+    .footer-container-item-2,
+    .footer-container-item-3
+    {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    .footer-heading{
+        display: block;
+        width: 100%;
     }
 }
 
