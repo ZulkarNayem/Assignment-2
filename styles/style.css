@@ -8,7 +8,11 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 
 
 /* shared styles */
@@ -76,11 +80,11 @@ header ul a {
     cursor: pointer;
 }
 
-.btn-nav:hover {
+/* .btn-nav:hover {
     border: 3px solid #FEA301;
     background-color: #ffc562;
     padding: 9px 57px;
-}
+} */
 
 /* hamburger icon */
 .mobile-navbar {
@@ -161,13 +165,13 @@ header ul a {
     cursor: pointer;
 }
 
-.btn-banner:hover {
+/* .btn-banner:hover {
     padding: 9px 45px;
     font-weight: 700;
     border: 3px solid black;
     background-color: rgb(168, 168, 168);
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.25rem; */
 }
 
 .banner-img {
@@ -275,10 +279,10 @@ header ul a {
     margin: 5px;
 }
 
-.arrow:hover {
+/* .arrow:hover {
     transform: scale(1.1);
     background-color: rgb(250, 137, 0);
-}
+} */
 
 /* story section styles */
 .stories {
@@ -330,6 +334,7 @@ header ul a {
     top: 314px;
     border-radius: 50px;
     background: rgb(60, 216, 232);
+    cursor: pointer;
 }
 
 .story-card-heading {
@@ -338,7 +343,7 @@ header ul a {
     font-weight: 700;
     line-height: 38.35px;
     text-align: left;
-    margin-top: 36px;
+    margin-top: 50px;
     margin-left: 40px;
 }
 
@@ -347,6 +352,7 @@ header ul a {
     font-size: 0.9rem;
     font-weight: 500;
     text-align: left;
+    margin-top: 50px;
     margin-left: 40px;
     margin-bottom: 40px;
 }
@@ -382,6 +388,7 @@ header ul a {
     background: rgb(149, 178, 38);
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .grid-heading {
