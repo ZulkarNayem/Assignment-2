@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 
 
 /* shared styles */
@@ -14,7 +20,7 @@
 
 /* nav styles */
 .header {
-    margin: 0 140px;
+    margin: 20px 140px;
 }
 
 .nav {
@@ -97,14 +103,16 @@ header ul a {
     margin: 34px 140px;
     gap: 50px;
 }
-.banner-info{
+
+.banner-info {
     padding-top: 100px;
 }
+
 .banner-title {
     padding: 0;
     margin-bottom: auto;
     color: black;
-    font-size: 3.3rem;
+    font-size: 3.1rem;
     font-weight: 700;
 }
 
@@ -120,12 +128,13 @@ header ul a {
     color: #111111;
     padding: 0;
     margin-top: 24px;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     text-align: left;
 }
 
 .btn-banner {
+    margin-top: 30px;
     font-size: 1.25rem;
     font-weight: 700;
     color: white;
@@ -263,14 +272,15 @@ header ul a {
     align-items: center;
     gap: 20px;
     padding: 60px 0px 60px 0px;
-    background: url('../assets/bg.png'), linear-gradient(0.00deg, #fea3014d, white, white, white);;
-    
+    background: url('../assets/bg.png'), linear-gradient(0.00deg, #fea3014d, white);
+    ;
+
 }
 
 .story-title {
     font-size: 2.8rem;
     font-weight: 700;
-    margin: 100px auto 50px;
+    /* margin: 100px auto 50px; */
 }
 
 .story-card-container {
@@ -372,7 +382,8 @@ header ul a {
     background: rgb(93, 88, 240);
     ;
 }
-.stories-view-all-btn{
+
+.stories-view-all-btn {
     margin: 80px auto 60px;
 }
 
@@ -384,8 +395,7 @@ header ul a {
 
     .nav,
     .arrow-icon,
-    .first-card
-    {
+    .first-card {
         display: none;
     }
 
@@ -422,6 +432,7 @@ header ul a {
     }
 
     .btn-banner {
+        margin-top: 20px;
         font-size: 1rem;
         font-weight: 700;
         border-radius: 8px;
@@ -447,27 +458,39 @@ header ul a {
         gap: 12px;
 
     }
-    .story-grid-container{
-        grid-template-columns: repeat(2, 1fr);
+
+    .story-card-item {
+        position: relative;
+        width: 173.09px;
+        height: 179.59px;
+        border-radius: 9.53px;
     }
-    .story-card-item,
-    .grid-heading 
-    {
-        width: 100%;
+
+    .story-card-mini-img {
+        position: relative;
+        width: 173.27px;
+        height: 105.39px;
+        border-radius: 9.53px 9.53px 0px 0px;
     }
-    .grid-heading {
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin-left: 10px;
-    }
-    .story-card-mini-img{
-        max-width: 100%;
-    }
+
     .grid-card-btn {
-        width: 130px;
-        height: 38.35px;
-        left: 10px;
-        top: 157.81px;
+        font-size: 0.6rem;
+        position: absolute;
+        width: 103.91px;
+        height: 22.83px;
+        left: 22.83px;
+        top: 93.96px;
+        border-radius: 28.54px;
+    }
+
+    .grid-heading {
+        margin: 20px;
+        
+        color: black;
+        font-family: Quicksand;
+        font-size: 0.6rem;
+        font-weight: 700;
+        text-align: left;
     }
 }
 
