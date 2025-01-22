@@ -25,10 +25,12 @@
 
 .nav {
     justify-content: space-between;
+    align-items: center;
 }
 
 .school {
     gap: 20px;
+    align-items: center;
 }
 
 header ul {
@@ -95,6 +97,20 @@ header ul a {
     background-color: #FEA301;
     width: 100%;
 }
+
+/* marque line styles */
+.marquee{
+    background-color: rgb(240, 240, 240);
+    margin: 0 140px;
+    border-radius: 12px;
+}
+.curiosity {
+    color: #FEA301;
+}
+.creativity {
+    color: #01ACFD;
+}
+
 
 /* banner styles */
 .banner {
@@ -199,6 +215,7 @@ header ul a {
 }
 
 .card-text {
+    text-align: center;
     font-size: 0.9rem;
     font-weight: 500;
     color: #808080;
@@ -385,16 +402,20 @@ header ul a {
 .stories-view-all-btn {
     margin: 80px auto 60px;
 }
+.this-card-display-none-on-pc{
+    display: none;
+}
 
 /* footer styles */
 .footer{
     background-color: #01ACFD;
     height: 85vh;
     width: 100%;
+    margin-top: 0px;
 }
 .footer-container{
     padding-top: 123px;
-    margin: 123px 100px auto 100px;
+    margin: 0px 100px auto 100px;
     display: flex;
 }
 .footer-container-item-1{
@@ -469,6 +490,7 @@ header ul a {
     .mobile-navbar {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .ham-burger img {
@@ -478,8 +500,13 @@ header ul a {
     .mobile-hr {
         display: block;
         width: auto;
+        margin-top: 10px;
     }
-
+    .marquee{
+        border-radius: 8px;
+        margin: 10px 20px;
+        margin-top: 10px;
+    }
     .banner {
         flex-direction: column-reverse;
         margin: 8px 16px;
@@ -525,7 +552,9 @@ header ul a {
         gap: 12px;
 
     }
-
+    .this-card-display-none-on-pc{
+        display: block;
+    }
     .story-card-item {
         position: relative;
         width: 173.09px;
